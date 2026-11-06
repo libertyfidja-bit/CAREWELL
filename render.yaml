@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: carewell
+    runtime: docker
+    plan: free
+    healthCheckPath: /
